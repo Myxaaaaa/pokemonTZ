@@ -1,0 +1,30 @@
+.pokemon {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pokemon-item {
+    background-color: #00bbff;
+    border: none;
+    border-radius: 30%;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    transition: .4s;
+}
+
+img {
+    transition: .3s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    filter: brightness(120%);
+}
+
+.pokemon-item:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 187, 255, 0.73);
+}
